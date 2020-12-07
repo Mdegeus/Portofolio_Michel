@@ -10,6 +10,14 @@ body {
   animation: gradiant 25s infinite;
 }
 
+.page {
+  margin-left: 5em;
+  width: 100%;
+  display: inline;
+  position:  fixed;
+  float: right;
+}
+
 .nav-bar {
   background-color: rgb(59, 59, 59);
   height: 100%;
@@ -44,17 +52,6 @@ body {
   margin-bottom: 2em;
 }
 
-.titles {
-  text-align: center;
-  padding: 2em;
-  padding-left: 10em;
-  padding-right: 5em;
-  margin: 0;
-  color: white;
-  font-weight: bolder;
-  font-family: Georgia, "Times New Roman", Times, serif;
-}
-
 .headmes {
   text-align: center;
   padding-top: 8em;
@@ -67,6 +64,29 @@ body {
   font-family: "Lobster", cursive;
   font-size: 2em;
 }
+
+.titles {
+  text-align: center;
+  padding: 2em;
+  padding-left: 10em;
+  padding-right: 5em;
+  margin: 0;
+  color: white;
+  font-weight: bolder;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.paragraph-def {
+  text-align: center;
+  padding: 2em;
+  padding-left: 10em;
+  padding-right: 5em;
+  margin: 0;
+  color: white;
+  font-weight: bolder;
+  font-family: "Lobster", cursive;
+}
+
 
 .nav-button img {
   width: 90%;
