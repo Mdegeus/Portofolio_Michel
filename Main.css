@@ -1,5 +1,5 @@
 html {
-  height: 200%;
+  height: 100%;
   margin: 0%;
 }
 
@@ -11,17 +11,13 @@ body {
 }
 
 .page {
-  margin-left: 5em;
-  width: 100%;
-  display: inline;
-  position:  fixed;
-  float: right;
+  padding-left: 5em;
 }
 
 .nav-bar {
   background-color: rgb(59, 59, 59);
   height: 100%;
-  width: 5em;
+  width: 4em;
   float: left;
   display: inline;
   padding: 0;
@@ -31,10 +27,9 @@ body {
 }
 
 .nav-bar ul {
-  padding: 20%;
+  padding-left: 15%;
   list-style: none;
-  text-decoration: none;
-  color: aliceblue;
+  height: 10;
 }
 
 .nav-bar ul li {
@@ -83,13 +78,38 @@ body {
   padding-right: 5em;
   margin: 0;
   color: white;
-  font-weight: bolder;
+  font-weight: nold;
   font-family: "Lobster", cursive;
 }
 
-
 .nav-button img {
   width: 90%;
+}
+
+.footer {
+  width: 100%;
+  background-color: rgb(17, 17, 17);
+  text-decoration: none;
+  position: absolute;
+  bottom: 0px;
+}
+
+.footer_div {
+  padding-left: 5em;
+  text-decoration: none;
+  display: flex;
+}
+
+.footer_div ul {
+  list-style: none;
+  padding-bottom: 5em;
+}
+
+.footer_div li a {
+  text-decoration: none;
+  color: white;
+  font-family: "Lobster", cursive;
+  font-size: 15px;
 }
 
 @keyframes gradiant {
