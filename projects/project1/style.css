@@ -1,0 +1,42 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  background-color: rgb(20, 20, 20);
+}
+
+h1 {
+  font-family: "Lobster", cursive;
+  color: white;
+  text-align: center;
+}
+p {
+  font-family: "Luckiest Guy", cursive;
+  color: white;
+  text-align: left;
+  margin: 0;
+}
+
+img {
+  width: 95%;
+  padding-left: 2.5%;
+  padding-bottom: 2em;
+}
+
+div {
+  padding: 0 3em 1em 3em;
+}
+
+div div {
+  display: flex;
+  padding: 0;
+}
+
+div div img {
+  width: 50em;
+  padding-top: 2em;
+  display: inline;
+  float: right;
+}

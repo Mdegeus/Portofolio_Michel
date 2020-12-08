@@ -1,0 +1,128 @@
+body {
+  background-color: black;
+}
+
+.projects_frame {
+  margin-left: 8%;
+}
+
+.project-balloon-left {
+  width: 90%;
+  height: 30em;
+  background-color: white;
+  border-radius: 20px;
+  margin-bottom: 2em;
+}
+
+.project-balloon-right {
+  width: 90%;
+  height: 30em;
+  background-color: white;
+  border-radius: 20px;
+  margin-bottom: 2em;
+}
+
+.project-balloon-left div {
+  display: flex;
+  height: 60%;
+}
+
+.project-balloon-right div {
+  display: flex;
+  height: 60%;
+}
+
+.project-balloon-left h1 {
+  text-align: center;
+  padding-top: 1em;
+  font-family: "Lobster", cursive;
+  color: rgb(124, 124, 124);
+}
+
+.project-balloon-right h1 {
+  text-align: center;
+  padding-top: 1em;
+  font-family: "Lobster", cursive;
+  color: rgb(124, 124, 124);
+}
+
+.project-balloon-left p {
+  text-align: center;
+  padding-top: 1em;
+  font-family: "Luckiest Guy", cursive;
+  color: rgb(124, 124, 124);
+  width: 40%;
+}
+
+.project-balloon-right p {
+  text-align: center;
+  padding-top: 1em;
+  font-family: "Luckiest Guy", cursive;
+  color: rgb(124, 124, 124);
+  width: 40%;
+  padding-left: 8%;
+}
+
+.project-balloon-left img {
+  width: 50%;
+}
+
+.project-balloon-right img {
+  width: 50%;
+}
+
+.project-balloon-left button {
+  text-align: center;
+  padding: 0.5em 5em 0.5em 5em;
+  font-family: "Lobster", cursive;
+  color: rgb(255, 255, 255);
+  background-color: rgb(63, 157, 245);
+  border: none;
+  border-radius: 10px;
+  position: relative;
+  left: 45%;
+}
+
+.project-balloon-right button {
+  text-align: center;
+  padding: 0.5em 5em 0.5em 5em;
+  font-family: "Lobster", cursive;
+  color: rgb(255, 255, 255);
+  background-color: rgb(63, 157, 245);
+  border: none;
+  border-radius: 10px;
+  position: relative;
+  left: 45%;
+}
+
+.project-balloon-left button:hover {
+  text-align: center;
+  padding: 0.5em 5em 0.5em 5em;
+  font-family: "Lobster", cursive;
+  color: rgb(255, 255, 255);
+  background-color: rgb(49, 189, 253);
+  border: none;
+  border-radius: 10px;
+  position: relative;
+  left: 45%;
+}
+
+.project-balloon-right button:hover {
+  text-align: center;
+  padding: 0.5em 5em 0.5em 5em;
+  font-family: "Lobster", cursive;
+  color: rgb(255, 255, 255);
+  background-color: rgb(49, 189, 253);
+  border: none;
+  border-radius: 10px;
+  position: relative;
+  left: 45%;
+}
+
+.project-balloon-left button:focus {
+  outline: none;
+}
+
+.project-balloon-right button:focus {
+  outline: none;
+}

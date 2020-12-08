@@ -1,0 +1,33 @@
+.page {
+    padding-left: 5em;
+  }
+  
+  .nav-bar {
+    background-color: rgb(59, 59, 59);
+    height: 100%;
+    width: 4em;
+    float: left;
+    display: inline;
+    padding: 0;
+    margin: 0, 10px, 0, 0;
+    position: fixed;
+    top: 0px;
+  }
+  
+  .nav-bar ul {
+    padding-left: 15%;
+    list-style: none;
+    height: 10;
+  }
+  
+  .nav-bar ul li {
+    margin-bottom: 5em;
+    width: 3em;
+  }
+
+  .nav-button img {
+    width: 90%;
+  }
+  
+  .nav-bar ul li :hover {
+  }
